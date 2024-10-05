@@ -65,7 +65,7 @@ def main():
         current_chatters = set([chatter["user_name"] for chatter in response["data"]])
 
         if previous_chatters != current_chatters:
-            print(f"Total {len(current_chatters)} chatters")
+            log(f"Total {len(current_chatters)} chatters")
     
         new_chatters = current_chatters - previous_chatters
         left_chatters = previous_chatters - current_chatters
