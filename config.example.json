@@ -1,5 +1,9 @@
 {
     "client_id": "",
     "client_secret": "",
-    "channel_name": ""
+    "channel_id": "",
+    "moderator_id": "",
+    "refresh_token": "",
+    "telegram_bot_token": "",
+    "telegram_chat_id": ""
 }
